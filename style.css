@@ -1,0 +1,279 @@
+.calander {
+  border: solid 3px black;
+  width: 500px;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.columnWrapper {
+  width: 240px;
+  height: 190px;
+  background-color: white;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clickedDay {
+  width: 60%;
+  height: 25%;
+  background-color: white;
+  margin: 0 0 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Righteous', cursive;
+  font-size: 30px;
+}
+
+.clickedDate {
+  width: 90%;
+  height: 65%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Righteous', cursive;
+  font-size: 130px;
+  margin-bottom: 30px;
+}
+
+.navigater {
+  background-color: white;
+  width: 90%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 5px 0;
+  font-family: 'Righteous', cursive;
+  font-size: 14px;
+}
+
+.directionButt {
+  background-color: white;
+  width: 20%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1px 0 1px;
+  font-size: 30px;
+}
+
+.chosenDateYear {
+  background-color: white;
+  width: 55%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.monthlyCalander {
+  width: 95%;
+  height: 70%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.days {
+  background-color: gray;
+  width: 95%;
+  height: 14%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px 0 5px 0;
+  font-family: 'Righteous', cursive;
+  border-radius: 10px;
+}
+
+.day {
+  font-size: 15px;
+  font-weight: 500px;
+}
+
+.dates {
+  background-color: white;
+  width: 95%;
+  height: 82%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 5px 0;
+}
+
+.week {
+  background-color: white;
+  width: 100%;
+  height: 16%;
+  margin: 1px 0 0 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.date {
+  background-color: white;
+  width: 14%;
+  height: 92%;
+  margin: 1px 1px 1px 1px;
+  font-family: 'Righteous', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clickedDate {
+  background-color: red;
+  border-radius: 10px;
+}
+
+.toDoList {
+  margin: 1px 0 0 0;
+  border-radius: 10px;
+  border: solid 3px black;
+  width: 500px;
+  min-height: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.toDoAdder {
+  margin: 10px;
+  width: 480px;
+  height: 40px;
+  background-color: white;
+  position: relative;
+}
+
+.dutiesWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.todoWrapper {
+  margin: 0 10px 10px 10px;
+  width: 480px;
+  background-color: white;
+  width: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.doneWrapper {
+  margin: 10px;
+  width: 480px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input {
+  margin: 0 0 10px 0 ;
+  width: 340px;
+  height: 37px;
+  border: none;
+  font-size: 20px;
+  font-family: 'Righteous', cursive;
+  border-bottom: solid 2px black;
+  position: absolute;
+  left: 60px;
+}
+
+.inputButt {
+  background-color: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  position: absolute;
+  left: 400px;
+  padding: 11px 0 0 0;
+}
+
+.dutyWrapper {
+  width: 360px;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2px;
+  border-bottom: solid 2px black;
+}
+
+.finishedDutyWrapper {
+  width: 360px;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2px;
+  border-bottom: solid 2px gray;
+}
+
+.dutyText {
+  width: 440px;
+  padding-left: 10px;
+  font-family: 'Righteous', cursive;
+  font-size: 15px;
+}
+
+.finishedText {
+  width: 440px;
+  padding-left: 10px;
+  font-family: 'Righteous', cursive;
+  font-size: 15px;
+  color: gray;
+  text-decoration: line-through;
+}
+
+.dutyDeleter {
+  font-family: 'Righteous', cursive;
+  font-size: 10px;
+  color: black;
+  border: none;
+  border: solid 1px black;
+  border-radius: 3px;
+ }
+
+ .finishedDutyDeleter {
+   font-family: 'Righteous', cursive;
+   font-size: 10px;
+   color: gray;
+   border: none;
+   border: solid 1px gray;
+   border-radius: 3px;
+  }
+
+/* .haveDutyIcon {
+  border-bottom: solid 2px red;
+  background-color: white;
+  width: 14%;
+  height: 92%;
+  margin: 1px 1px 1px 1px;
+  font-family: 'Righteous', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */

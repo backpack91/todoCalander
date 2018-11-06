@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script defer src="https://use.fontawesome.com/releases/v5.4.2/js/all.js" integrity="sha384-wp96dIgDl5BLlOXb4VMinXPNiB32VYBSoXOoiARzSTXY+tsK8yDTYfvdTyqzdGGN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>calander</title>
+    <style>@import url('https://fonts.googleapis.com/css?family=Righteous');</style>
+    <script defer src="https://use.fontawesome.com/releases/v5.4.2/js/all.js" integrity="sha384-wp96dIgDl5BLlOXb4VMinXPNiB32VYBSoXOoiARzSTXY+tsK8yDTYfvdTyqzdGGN" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="calander">
+      <div class="columnWrapper">
+        <div class="clickedDay">
+
+        </div>
+        <div class="clickedDate">
+
+        </div>
+      </div>
+      <div class="columnWrapper">
+        <div class="navigater">
+          <div class="directionButt leftButt"><i class="fas fa-angle-left"></i></div>
+          <div class="chosenDateYear"></div>
+          <div class="directionButt rightButt"><i class="fas fa-angle-right"></i></div>
+        </div>
+        <div class="monthlyCalander">
+          <div class="days">
+            <div class="day">
+              <p>S</p>
+            </div>
+            <div class="day">
+              <p>M</p>
+            </div>
+            <div class="day">
+              <p>T</p>
+            </div>
+            <div class="day">
+              <p>W</p>
+            </div>
+            <div class="day">
+              <p>T</p>
+            </div>
+            <div class="day">
+              <p>F</p>
+            </div>
+            <div class="day">
+              <p>S</p>
+            </div>
+          </div>
+          <div class="dates">
+            <div class="week" id="week1"></div>
+            <div class="week" id="week2"></div>
+            <div class="week" id="week3"></div>
+            <div class="week" id="week4"></div>
+            <div class="week" id="week5"></div>
+            <div class="week" id="week6"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toDoList">
+      <div class="toDoAdder">
+        <input type="text" class="input" placeholder="write down here!" autofocus>
+        <button type="button" class="inputButt" name="button"><i class="fas fa-pencil-alt"></i></button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
